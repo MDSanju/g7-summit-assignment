@@ -1,0 +1,29 @@
+/* details cart styles */
+
+.information-item {
+    text-align: center;
+    padding: 35px 0 25px 0;
+    box-shadow: 0px 0px 18px 0 #0000002c;
+    border-radius: 10px;
+    transition: .3s ease box-shadow;
+}
+
+.information-item:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+
+
+/* cart image styles */
+
+.information-item img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+/* add to cart button */
+
+.add-to-cart {
+    padding: 6px 20px;
+}

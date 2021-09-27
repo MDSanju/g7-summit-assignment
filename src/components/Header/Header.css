@@ -1,0 +1,27 @@
+/* header background styles */
+
+.header-container {
+    background-color: #e9e9ba;
+    text-align: center;
+    min-height: 245px;
+    border-bottom: 1px solid rgb(192, 189, 189);
+}
+
+
+/* website name */
+
+.website-name {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+
+/* header description styles */
+
+.header-container p {
+    color: #6F1E51;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 18px;
+    font-weight: 600;
+}
