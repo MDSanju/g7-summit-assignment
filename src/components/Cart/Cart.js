@@ -12,6 +12,10 @@ const Cart = (props) => {
             <h4>President Entered:<br />{props.cart.length}</h4>
             <br />
             <h4>Total Donated:<br />${totalDonation}</h4>
+            {/*  */}
+            {
+                cart.map(name => <h4 key={name.name}>{name.name}</h4>)
+            }
             {/* buy now button */}
             <button type="button" className="btn btn-outline-dark">Buy Now</button>
         </div>
