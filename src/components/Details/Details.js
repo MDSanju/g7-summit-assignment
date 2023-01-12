@@ -7,6 +7,7 @@ const Details = () => {
     // set state
     const [details, setDetails] = useState([]);
     const [cart, setCart] = useState([]);
+    console.log(cart);
 
     // use effect and get fake data by doing fetch
     useEffect(() => {
